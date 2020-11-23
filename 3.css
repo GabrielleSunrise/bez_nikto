@@ -313,13 +313,90 @@ max-width: 1440px;
 position: absolute;
 left: 50%;
 transform: translate(-50%);
+color: white;
 }
 
-.footer_nav {
+.footer-content {
+margin: 42px 250px 40px;
+text-align: left;
 display: flex;
-justify-content: center;
-align-items: center;
-padding-bottom: 43px;
+}
+
+.column_header, .footer_description {
+font-size: 11px;
+line-height: 19px;
+letter-spacing: 0.85px;
+}
+
+.logo_footer {
+margin-bottom: 8px;
+}
+
+.column_header {
+margin-bottom: 17px;
+}
+
+.company {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+max-width: 250px;
+margin-right: 71px;
+}
+
+.links {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+min-width: 262px;
+margin-right: 58px;
+}
+
+.column ul {
+list-style-type: none;
+padding: 0;
+}
+
+.column a {
+color: white;
+text-decoration: none;
+font-weight: 600;
+font-size: 11px;
+line-height: 25px;
+letter-spacing: 0.85px;
+}
+
+.contact {
+font-size: 11px;
+line-height: 16px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+max-width: 130px;
+margin-right: 50px;
+}
+
+.contact span:not(:first-child) {
+margin-bottom: 20px;
+}
+
+.contact span:last-child {
+margin-bottom: 0px;
+}
+
+.socials {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+min-width: 100px;
+margin-top: 35px;
+}
+
+.copyright {
+margin: auto;
+padding-top: 22px;
+padding-bottom: 23px;
+background-color: #171819;
 }
 
 .hamburger {
