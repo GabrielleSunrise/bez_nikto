@@ -489,6 +489,14 @@ flex-direction: column;
 margin: 10px;
 }
 
+.advantages div:last-child {
+margin-right: 0px;
+}
+
+.advantages div:not(:last-child) {
+margin-right: 0px;
+}
+
 .newsletter {
 flex-direction: column;
 height: auto;
@@ -584,8 +592,105 @@ nav a:not(:last-child) {
 padding-right: 0;
 }
 
-a {
+nav a {
 display: block;
 padding: 10px 0;
+}
+}
+
+@media screen and (max-width: 576px) {
+h1 {
+font-size: 36px;
+line-height: 40px;
+}
+
+.logo_top {
+display: none;
+}
+
+.navigation {
+justify-content: flex-end;
+}
+
+nav {
+align-items: center;
+width: 100%;
+}
+
+.story, .capabilities {	
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.cards img {
+width: 30%;
+margin: 5px;
+}
+
+.capabilities_button p {
+margin-right: 0px;
+}
+
+.advantages {
+width: 90%;
+padding-left: 10px; 
+padding-right: 10px;
+}
+
+.advantage {
+padding: 10px;
+margin: 0;
+}
+
+.want_to span {
+font-size: 20px;
+line-height: 26px;
+margin-bottom: 15px;
+}
+
+input[type=text] {
+padding: 11px 20px 10px 16px;
+}
+
+.footer-content {
+margin: 30px 0;
+}
+
+.company {
+max-width: 90%;
+margin: auto;
+}
+
+.links {
+flex-wrap: wrap;
+width: 100%;
+margin-right: 0;
+flex-direction: column;
+margin-left: 30px;
+}
+
+.contact span{
+margin-right: 10px;
+}
+
+.contact span:not(:first-child) {
+margin-left: 30px;
+}
+
+.socials {
+justify-content: center;
+align-items: center;
+min-width: 100px;
+}
+
+.copyright {
+margin: auto;
+padding-top: 22px;
+padding-bottom: 23px;
+background-color: #171819;
+}
+
+.hamburger {
+display: none;
 }
 }
