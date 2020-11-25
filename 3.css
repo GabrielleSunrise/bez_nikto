@@ -632,7 +632,7 @@ margin: 5px;
 }
 
 .capabilities_button p {
-margin-right: 10px;
+margin-right: 0px;
 }
 
 .advantages {
@@ -674,10 +674,6 @@ flex-direction: column;
 margin-left: 30px;
 }
 
-.contact span{
-margin-right: 10px;
-}
-
 .contact span:not(:first-child) {
 margin-left: 30px;
 }
@@ -707,49 +703,5 @@ margin: 0px;
 display: inline-block;
 width: 30px;
 cursor: pointer;
-}
-
-#stripe1, #stripe2, #stripe3 {
-background-color: #00A4E5;
-height: 3px;
-margin: 8px 0;
-}
-
-.isactive#stripe2 {
-visibility: hidden;
-}
-
-.isactive#stripe1 {
-transform: rotate(45deg) translate(7px, 8.5px);
-}
-
-.isactive#stripe3 {
-transform: rotate(-45deg) translate(7px, -8.5px);
-}
-
-.navigation {
-height: auto;
-padding: 10px 50px;
-align-items: flex-start;
-}
-
-.logo_top {
-margin-top: 10px; 
-}
-
-.hide {
-display: none;
-}
-
-.show {
-display: flex;
-flex-direction: column;
-height: auto;
-border: none;
-}
-
-.heading {
-margin-left: 20px;
-margin-right: 20px;
 }
 }
