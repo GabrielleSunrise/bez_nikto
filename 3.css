@@ -632,18 +632,19 @@ margin: 5px;
 }
 
 .capabilities_button p {
-margin-right: 0px;
+margin-right: 10px;
 }
 
 .advantages {
-width: 90%;
+width: 100%;
 padding-left: 10px; 
 padding-right: 10px;
 }
 
 .advantage {
 padding: 10px;
-margin: 0;
+margin: 10px;
+max-width: 80%;
 }
 
 .want_to span {
@@ -745,5 +746,10 @@ display: flex;
 flex-direction: column;
 height: auto;
 border: none;
+}
+
+.heading {
+margin-left: 20px;
+margin-right: 20px;
 }
 }
